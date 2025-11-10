@@ -70,7 +70,12 @@ Implement custom versions of Promise.all, Promise.race, and Promise.allSettled t
 
 Master JavaScript type coercion with functions for converting between strings, numbers, booleans, and parsing JSON.
 
-#### 9. Run-Length Encoding
+#### 9. Type Coercion (== vs ===)
+**File:** `src/exercises/javascript/type-coercion.js`
+
+Understand the difference between loose equality (==) and strict equality (===). Learn when type coercion happens and how to avoid common bugs.
+
+#### 10. Run-Length Encoding
 **File:** `src/exercises/javascript/rle.js`
 
 Implement RLE compression/decompression algorithm - a classic string manipulation and algorithm problem.

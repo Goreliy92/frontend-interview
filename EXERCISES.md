@@ -62,7 +62,17 @@ This document provides an overview of all the additional exercises added to the 
 - JSON parsing and error handling
 - Query string manipulation
 
-### 8. Run-Length Encoding (`rle.js`)
+### 8. Type Coercion (`type-coercion.js`)
+**Concept:** Understanding == vs === and type coercion rules
+**Use Case:** Avoiding equality comparison bugs, interview preparation
+**Learning Goals:**
+- Difference between == (loose) and === (strict) equality
+- How JavaScript coerces types in comparisons
+- Common coercion pitfalls and bugs
+- Best practices for equality checks
+- Understanding falsy values vs loose equality
+
+### 9. Run-Length Encoding (`rle.js`)
 **Concept:** String compression algorithm
 **Use Case:** Data compression, pattern recognition
 **Learning Goals:**
@@ -114,6 +124,7 @@ This document provides an overview of all the additional exercises added to the 
 - Todo List
 - Closure Counter
 - Type Conversions (basic)
+- Type Coercion (== vs ===)
 
 ### Intermediate
 - Throttle
@@ -141,6 +152,7 @@ This document provides an overview of all the additional exercises added to the 
 - ✅ Performance patterns (throttle/debounce)
 - ✅ Data structures (LRU)
 - ✅ Type coercion & conversion
+- ✅ Equality operators (== vs ===)
 - ✅ String algorithms (RLE)
 
 ### TypeScript
