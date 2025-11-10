@@ -26,6 +26,30 @@ npm run dev
 
 4. Open your browser at `http://localhost:5173`
 
+## 🧪 Testing
+
+This repository includes comprehensive automated tests for all exercises!
+
+### Quick Start with Testing
+
+```bash
+# Run all tests in watch mode
+npm test
+
+# Run tests with visual UI
+npm run test:ui
+
+# Run tests once
+npm run test:run
+```
+
+**For detailed testing documentation, see [TESTING.md](TESTING.md)**
+
+Tests help both students and mentors:
+- ✅ **Students**: Validate your solutions instantly with automated tests
+- 👨‍🏫 **Mentors**: Quickly review progress and identify areas needing help
+- 📊 **Progress Tracking**: See exactly which exercises are complete
+
 ## 📚 Exercises
 
 ### JavaScript Exercises
@@ -116,11 +140,22 @@ Create an interactive todo list using createElement, appendChild, and event list
 
 ## 🎯 How to Use
 
-1. Open a file in the `src/exercises/` directory
-2. Read the task description in the comments
-3. Implement the required functionality
-4. Test your solution using the interactive interface in the browser
-5. Check `src/exercises/solutions/` for reference implementations (if stuck)
+### For Students (Interviewees)
+
+1. **Choose an exercise** from `src/exercises/` directory
+2. **Read the task description** in the file comments  
+3. **Run tests in watch mode**: `npm test`
+4. **Implement the solution** while watching tests turn green ✅
+5. **All tests pass?** Move to the next exercise!
+
+See [TESTING.md](TESTING.md) for detailed testing guide.
+
+### For Mentors
+
+1. **Quick validation**: `npm run test:run` - see all exercise completion status
+2. **Visual review**: `npm run test:ui` - interactive test results in browser
+3. **Check coverage**: `npm run test:coverage` - see code coverage reports
+4. **Manual review**: Compare solutions with reference implementations in `src/exercises/solutions/`
 
 ## 📁 Project Structure
 
