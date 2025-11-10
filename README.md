@@ -60,6 +60,21 @@ Understand JavaScript's event loop by predicting execution order of synchronous 
 
 Implement a Least Recently Used cache with get/put operations. Common data structures interview question.
 
+#### 7. Promise Methods
+**File:** `src/exercises/javascript/promise-methods.js`
+
+Implement custom versions of Promise.all, Promise.race, and Promise.allSettled to understand async coordination patterns.
+
+#### 8. Type Conversions
+**File:** `src/exercises/javascript/type-conversions.js`
+
+Master JavaScript type coercion with functions for converting between strings, numbers, booleans, and parsing JSON.
+
+#### 9. Run-Length Encoding
+**File:** `src/exercises/javascript/rle.js`
+
+Implement RLE compression/decompression algorithm - a classic string manipulation and algorithm problem.
+
 ### TypeScript Exercises
 
 #### 1. User Validator

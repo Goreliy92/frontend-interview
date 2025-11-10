@@ -44,6 +44,33 @@ This document provides an overview of all the additional exercises added to the 
 - Map operations and ordering
 - Algorithm implementation
 
+### 6. Promise Methods (`promise-methods.js`)
+**Concept:** Async coordination patterns
+**Use Case:** Handling multiple promises, race conditions, resilience
+**Learning Goals:**
+- Promise.all implementation
+- Promise.race implementation
+- Promise.allSettled implementation
+- Understanding promise resolution/rejection
+
+### 7. Type Conversions (`type-conversions.js`)
+**Concept:** JavaScript type coercion and conversion
+**Use Case:** Data validation, parsing user input, API data handling
+**Learning Goals:**
+- Implicit vs explicit conversion
+- String, number, boolean conversions
+- JSON parsing and error handling
+- Query string manipulation
+
+### 8. Run-Length Encoding (`rle.js`)
+**Concept:** String compression algorithm
+**Use Case:** Data compression, pattern recognition
+**Learning Goals:**
+- String manipulation
+- Algorithm implementation
+- Encode/decode patterns
+- Optimization strategies
+
 ## TypeScript Exercises
 
 ### 1. Readonly & Utility Types (`readonly-types.ts`)
@@ -86,6 +113,7 @@ This document provides an overview of all the additional exercises added to the 
 - User Validator
 - Todo List
 - Closure Counter
+- Type Conversions (basic)
 
 ### Intermediate
 - Throttle
@@ -93,11 +121,14 @@ This document provides an overview of all the additional exercises added to the 
 - Event Loop
 - Readonly Types
 - Array Methods
+- Type Conversions (advanced)
+- Run-Length Encoding
 
 ### Advanced
 - LRU Cache
 - API Types
 - Fetch with Retry
+- Promise Methods (Promise.all, race, allSettled)
 
 ## Topics Coverage
 
@@ -106,8 +137,11 @@ This document provides an overview of all the additional exercises added to the 
 - ✅ Closures
 - ✅ Event loop
 - ✅ Async/await
+- ✅ Promises (all, race, allSettled)
 - ✅ Performance patterns (throttle/debounce)
 - ✅ Data structures (LRU)
+- ✅ Type coercion & conversion
+- ✅ String algorithms (RLE)
 
 ### TypeScript
 - ✅ Interfaces
