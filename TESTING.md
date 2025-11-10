@@ -32,7 +32,28 @@ This opens a beautiful web interface where you can:
 - See detailed error messages
 - Track your progress
 
-#### 4. Run Specific Test File
+#### 4. Run Tests for Specific Exercise
+
+You can easily run tests for just one exercise or function:
+
+```bash
+# Run only array-sum tests
+npm test array-sum
+
+# Run only debounce tests
+npm test debounce
+
+# Run only throttle tests
+npm test throttle
+```
+
+**How it works:** Vitest will filter and run only tests that match the pattern you provide. This is perfect when you're working on a specific exercise and want immediate feedback without running all 136 tests.
+
+**All available exercises:**
+- JavaScript: `array-sum`, `debounce`, `throttle`, `closure-counter`, `lru-cache`, `rle`, `promise-methods`, `type-coercion`, `type-conversions`, `event-loop`
+- TypeScript: `user-validator`, `array-methods`, `readonly-types`
+
+You can also run a specific test file directly:
 ```bash
 npx vitest run src/exercises/javascript/array-sum.test.js
 ```

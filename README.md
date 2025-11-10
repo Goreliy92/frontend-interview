@@ -36,6 +36,9 @@ This repository includes comprehensive automated tests for all exercises!
 # Run all tests in watch mode
 npm test
 
+# Run tests for specific exercise (e.g., array-sum)
+npm test array-sum
+
 # Run tests with visual UI
 npm run test:ui
 
@@ -44,6 +47,8 @@ npm run test:run
 ```
 
 **For detailed testing documentation, see [TESTING.md](TESTING.md)**
+
+**CLI Filtering:** You can run tests for any specific exercise by adding its name after `npm test`. Examples: `npm test debounce`, `npm test lru-cache`, `npm test user-validator`. See [TESTING-QUICK-REF.md](TESTING-QUICK-REF.md) for all available filters.
 
 Tests help both students and mentors:
 - ✅ **Students**: Validate your solutions instantly with automated tests
