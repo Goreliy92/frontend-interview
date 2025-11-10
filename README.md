@@ -28,36 +28,71 @@ npm run dev
 
 ## 📚 Exercises
 
-This boilerplate includes three starter exercises:
+### JavaScript Exercises
 
-### 1. JavaScript Exercise: Array Sum
+#### 1. Array Sum
 **File:** `src/exercises/javascript/array-sum.js`
 
 Write a function that calculates the sum of all numbers in an array.
 
-**Requirements:**
-- Return 0 for an empty array
-- Handle negative numbers
-- Handle decimal numbers
+#### 2. Throttle
+**File:** `src/exercises/javascript/throttle.js`
 
-### 2. TypeScript Exercise: User Validator
+Implement a throttle function that limits how often a function can be called. Essential for performance optimization in scroll/resize handlers.
+
+#### 3. Debounce
+**File:** `src/exercises/javascript/debounce.js`
+
+Implement a debounce function that delays execution until after a wait period. Useful for search inputs and auto-save features.
+
+#### 4. Closure - Counter
+**File:** `src/exercises/javascript/closure-counter.js`
+
+Create a counter using closures to demonstrate private variables and encapsulation.
+
+#### 5. Event Loop
+**File:** `src/exercises/javascript/event-loop.js`
+
+Understand JavaScript's event loop by predicting execution order of synchronous code, Promises, and setTimeout.
+
+#### 6. LRU Cache
+**File:** `src/exercises/javascript/lru-cache.js`
+
+Implement a Least Recently Used cache with get/put operations. Common data structures interview question.
+
+### TypeScript Exercises
+
+#### 1. User Validator
 **File:** `src/exercises/typescript/user-validator.ts`
 
-Define a User interface and implement a validation function.
+Define a User interface and implement a validation function with proper type safety.
 
-**Requirements:**
-- Define User interface with: name (string), age (number), email (string)
-- Validate: name is not empty, age >= 18, email contains '@'
+#### 2. Readonly & Utility Types
+**File:** `src/exercises/typescript/readonly-types.ts`
 
-### 3. DOM API Exercise: Todo List
+Work with readonly properties and TypeScript utility types like Pick, Omit, and Readonly.
+
+#### 3. Array Methods with Types
+**File:** `src/exercises/typescript/array-methods.ts`
+
+Implement type-safe array wrapper with push, concat, filter, and map methods using generics.
+
+#### 4. API Types from Response
+**File:** `src/exercises/typescript/api-types.ts`
+
+Build TypeScript types from real API responses (JSONPlaceholder). Practice type guards and Pick utility.
+
+#### 5. Fetch with Retry
+**File:** `src/exercises/typescript/fetch-retry.ts`
+
+Implement API calls with automatic retry logic and exponential backoff for network resilience.
+
+### DOM API Exercises
+
+#### 1. Todo List
 **File:** `src/exercises/dom/todo-list.ts`
 
-Create a simple todo list with add and remove functionality.
-
-**Requirements:**
-- Implement `addTodo`: creates new todo item
-- Implement `removeTodo`: removes a todo item
-- Use DOM methods: createElement, appendChild, addEventListener
+Create an interactive todo list using createElement, appendChild, and event listeners.
 
 ## 🎯 How to Use
 
