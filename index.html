@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Interview - Mentorship Exercises</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Frontend Interview Exercises</h1>
+      <p>Practice JavaScript, TypeScript, and DOM API</p>
+    </header>
+
+    <nav class="exercise-nav">
+      <button class="nav-btn active" data-exercise="js">JavaScript</button>
+      <button class="nav-btn" data-exercise="ts">TypeScript</button>
+      <button class="nav-btn" data-exercise="dom">DOM API</button>
+    </nav>
+
+    <main id="exercise-content">
+      <!-- Exercise content will be loaded here -->
+    </main>
+
+    <section id="exercise-sections">
+      <!-- JavaScript Exercise -->
+      <div id="js-exercise" class="exercise-section active">
+        <h2>JavaScript Exercise: Array Sum</h2>
+        <p class="description">
+          Write a function that calculates the sum of all numbers in an array.
+        </p>
+        <div class="task">
+          <h3>Task:</h3>
+          <p>Complete the <code>sumArray</code> function in <code>src/exercises/javascript/array-sum.js</code></p>
+          <pre><code>// Expected behavior:
+sumArray([1, 2, 3, 4, 5]) // returns 15
+sumArray([]) // returns 0
+sumArray([-1, 1, -2, 2]) // returns 0</code></pre>
+        </div>
+        <div class="test-area">
+          <h3>Test It:</h3>
+          <input type="text" id="js-input" placeholder="Enter numbers separated by commas (e.g., 1,2,3,4,5)">
+          <button id="js-test-btn">Run Test</button>
+          <div id="js-result" class="result"></div>
+        </div>
+      </div>
+
+      <!-- TypeScript Exercise -->
+      <div id="ts-exercise" class="exercise-section">
+        <h2>TypeScript Exercise: User Interface</h2>
+        <p class="description">
+          Define a User interface and create a function that validates user data.
+        </p>
+        <div class="task">
+          <h3>Task:</h3>
+          <p>Complete the User interface and <code>isValidUser</code> function in <code>src/exercises/typescript/user-validator.ts</code></p>
+          <pre><code>// Define User interface with:
+// - name: string
+// - age: number
+// - email: string
+
+// Function should validate:
+// - name is not empty
+// - age is >= 18
+// - email contains '@'</code></pre>
+        </div>
+        <div class="test-area">
+          <h3>Test It:</h3>
+          <input type="text" id="ts-name" placeholder="Name">
+          <input type="number" id="ts-age" placeholder="Age">
+          <input type="text" id="ts-email" placeholder="Email">
+          <button id="ts-test-btn">Validate User</button>
+          <div id="ts-result" class="result"></div>
+        </div>
+      </div>
+
+      <!-- DOM API Exercise -->
+      <div id="dom-exercise" class="exercise-section">
+        <h2>DOM API Exercise: Todo List</h2>
+        <p class="description">
+          Create a simple todo list with add and remove functionality using DOM manipulation.
+        </p>
+        <div class="task">
+          <h3>Task:</h3>
+          <p>Complete the functions in <code>src/exercises/dom/todo-list.ts</code></p>
+          <ul>
+            <li>Implement <code>addTodo</code>: adds a new todo item</li>
+            <li>Implement <code>removeTodo</code>: removes a todo item</li>
+            <li>Use <code>createElement</code>, <code>appendChild</code>, <code>addEventListener</code></li>
+          </ul>
+        </div>
+        <div class="test-area">
+          <h3>Try It:</h3>
+          <div class="todo-container">
+            <input type="text" id="todo-input" placeholder="Enter a todo item">
+            <button id="add-todo-btn">Add Todo</button>
+            <ul id="todo-list"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
