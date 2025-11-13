@@ -143,6 +143,17 @@ Implement API calls with automatic retry logic and exponential backoff for netwo
 
 Create an interactive todo list using createElement, appendChild, and event listeners.
 
+#### 2. Event Delegation
+**File:** `src/exercises/dom/event-delegation.ts`
+
+Learn the Event Delegation pattern - use a single event listener on a parent to handle events for many children. Essential for performance in large lists and dynamic content. Includes interactive demo at `event-delegation-demo.html`.
+
+**Key Concepts:**
+- Event bubbling and capturing
+- Performance optimization (one listener vs many)
+- Handling dynamically added elements
+- Using `closest()` and `data-*` attributes
+
 ## 🎯 How to Use
 
 ### For Students (Interviewees)

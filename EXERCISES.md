@@ -81,6 +81,28 @@ This document provides an overview of all the additional exercises added to the 
 - Encode/decode patterns
 - Optimization strategies
 
+## DOM API Exercises
+
+### 1. Todo List (`todo-list.ts`)
+**Concept:** Basic DOM manipulation
+**Use Case:** Interactive list management
+**Learning Goals:**
+- createElement, appendChild
+- Event listeners
+- Element removal
+- DOM traversal
+
+### 2. Event Delegation (`event-delegation.ts`)
+**Concept:** Single event listener for multiple dynamic elements
+**Use Case:** Large lists, dynamic content, performance optimization
+**Learning Goals:**
+- Event bubbling and capturing
+- Event.target vs Event.currentTarget
+- Using closest() and matches()
+- data-* attributes for action identification
+- Performance benefits of delegation
+- Handling dynamically added elements
+
 ## TypeScript Exercises
 
 ### 1. Readonly & Utility Types (`readonly-types.ts`)
@@ -125,6 +147,7 @@ This document provides an overview of all the additional exercises added to the 
 - Closure Counter
 - Type Conversions (basic)
 - Type Coercion (== vs ===)
+- Event Delegation
 
 ### Intermediate
 - Throttle
@@ -166,6 +189,7 @@ This document provides an overview of all the additional exercises added to the 
 - ✅ Element creation
 - ✅ Event handling
 - ✅ DOM manipulation
+- ✅ Event delegation
 
 ### Patterns & Best Practices
 - ✅ Retry logic
