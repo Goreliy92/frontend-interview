@@ -3,6 +3,7 @@
 Hands-on React tasks that focus on common anti-patterns and small feature-complete mini apps. These are framework-agnostic and can be completed with plain React (JS or TS) without additional libraries.
 
 ## 1) Anti-Patterns Clinic (`react-anti-patterns`)
+**Boilerplate:** `src/exercises/react/anti-patterns/boilerplate.html` (open directly or in StackBlitz)
 Refactor a deliberately flawed component tree to remove common React anti-patterns.
 
 ### What the starter code should include
@@ -25,6 +26,7 @@ Refactor a deliberately flawed component tree to remove common React anti-patter
 - [ ] Shared data no longer relies on multi-level prop drilling
 
 ## 2) Todo List Mini App (`react-todo-mini-app`)
+**Boilerplate:** `src/exercises/react/todo-mini-app/boilerplate.html`
 Build a classic todo list with modern React patterns.
 
 ### Requirements
@@ -40,6 +42,7 @@ Build a classic todo list with modern React patterns.
 - Extract reusable `useTodos` hook with reducer for actions
 
 ## 3) Dummy API Mini App (`react-dummy-api`)
+**Boilerplate:** `src/exercises/react/dummy-api-app/boilerplate.html`
 Prefer a local mock API (e.g., `json-server`) to avoid rate limits. As a fallback, JSONPlaceholder (https://jsonplaceholder.typicode.com/) works for quick trials.
 
 ### Requirements
@@ -59,7 +62,7 @@ _Tip:_ If you hit CORS restrictions with public dummy APIs, use your local mock 
 ## How to work on these
 1. Create components under `src/exercises/react/` using a modern setup like Vite or Next.js. Avoid CRA for new work because it is in maintenance mode and modern alternatives perform better.
 2. Keep each exercise self-contained (its own entry point or story).
-3. Use TypeScript if you want extra practice with props and hooks typing.
+3. Use TypeScript if you want extra practice with props and hooks typing. For StackBlitz, you can open any `boilerplate.html` and start iterating.
 
 ## Suggested folder layout
 ```

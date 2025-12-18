@@ -167,6 +167,11 @@ This document provides an overview of all the additional exercises added to the 
 - Mock create requests and append data optimistically
 - Explore pagination/infinite scroll and simple caching strategies
 
+**Boilerplates:**  
+- `src/exercises/react/anti-patterns/boilerplate.html`  
+- `src/exercises/react/todo-mini-app/boilerplate.html`  
+- `src/exercises/react/dummy-api-app/boilerplate.html`
+
 ## Exercise Difficulty Levels
 
 ### Beginner

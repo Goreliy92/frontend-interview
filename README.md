@@ -158,16 +158,19 @@ Learn the Event Delegation pattern - use a single event listener on a parent to 
 
 #### 1. Anti-Patterns Clinic
 **Reference:** `src/exercises/react/README.md` (`react-anti-patterns`)
+**Boilerplate:** `src/exercises/react/anti-patterns/boilerplate.html`
 
 Refactor a deliberately flawed component tree to eliminate common React anti-patterns like prop drilling, render storms from unstable callbacks, duplicated derived state, and missing `useEffect` dependencies.
 
 #### 2. Todo List Mini App
 **Reference:** `src/exercises/react/README.md` (`react-todo-mini-app`)
+**Boilerplate:** `src/exercises/react/todo-mini-app/boilerplate.html`
 
 Build a modern React todo list with add/edit/delete/toggle, filters, localStorage persistence, and keyboard-friendly interactions.
 
 #### 3. Dummy API Mini App
 **Reference:** `src/exercises/react/README.md` (`react-dummy-api`)
+**Boilerplate:** `src/exercises/react/dummy-api-app/boilerplate.html`
 
 Consume a dummy API (prefer a local mock like `json-server`; JSONPlaceholder at https://jsonplaceholder.typicode.com/ works as a fallback) to list posts with loading/error states, search, details with comments, and optimistic create flows.
 
