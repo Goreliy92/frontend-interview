@@ -169,7 +169,7 @@ Build a modern React todo list with add/edit/delete/toggle, filters, localStorag
 #### 3. Dummy API Mini App
 **Reference:** `src/exercises/react/README.md` (`react-dummy-api`)
 
-Consume a dummy API (e.g., JSONPlaceholder) to list posts with loading/error states, search, details with comments, and optimistic create flows.
+Consume a dummy API (prefer a local mock like `json-server`; JSONPlaceholder at https://jsonplaceholder.typicode.com/ works as a fallback) to list posts with loading/error states, search, details with comments, and optimistic create flows.
 
 ## 🎯 How to Use
 

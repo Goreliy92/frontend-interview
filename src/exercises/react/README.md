@@ -14,7 +14,7 @@ Refactor a deliberately flawed component tree to remove common React anti-patter
 
 ### Tasks
 1. Replace prop drilling with Context (or a custom hook) while keeping explicit typing.
-2. Stabilize renders using `useMemo`/`useCallback` only where profiling shows benefit.
+2. Stabilize renders using `useMemo`/`useCallback` only where profiling (React DevTools Profiler or similar) shows benefit.
 3. Remove duplicated/derived state; compute from source data instead.
 4. Fix effect dependencies and avoid setting state during render.
 5. Add basic component tests (e.g., with React Testing Library or your preferred approach) to ensure key screens still render.
@@ -40,7 +40,7 @@ Build a classic todo list with modern React patterns.
 - Extract reusable `useTodos` hook with reducer for actions
 
 ## 3) Dummy API Mini App (`react-dummy-api`)
-Consume a dummy API (e.g., https://jsonplaceholder.typicode.com/) to render data with proper loading/error states.
+Prefer a local mock API (e.g., `json-server`) to avoid rate limits. As a fallback, JSONPlaceholder (https://jsonplaceholder.typicode.com/) works for quick trials.
 
 ### Requirements
 - Fetch and display a list of posts (title + body)
@@ -49,13 +49,15 @@ Consume a dummy API (e.g., https://jsonplaceholder.typicode.com/) to render data
 - Click a post to view details and its comments
 - Add a new post via form; mock the network call and append to the list optimistically
 
+_Tip:_ If you hit CORS restrictions with public dummy APIs, use your local mock server (e.g., `json-server`) or a lightweight CORS proxy.
+
 ### Stretch ideas
 - Paginate or infinite-scroll the feed
 - Cache responses (simple in-memory map keyed by URL)
 - Show optimistic updates with rollback on failure
 
 ## How to work on these
-1. Create components under `src/exercises/react/` using a modern setup like Vite or Next.js (CRA is no longer recommended).
+1. Create components under `src/exercises/react/` using a modern setup like Vite or Next.js. Avoid CRA for new work because it is in maintenance mode and modern alternatives perform better.
 2. Keep each exercise self-contained (its own entry point or story).
 3. Use TypeScript if you want extra practice with props and hooks typing.
 
