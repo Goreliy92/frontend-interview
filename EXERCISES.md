@@ -171,6 +171,10 @@ This document provides an overview of all the additional exercises added to the 
 - `src/exercises/react/anti-patterns/boilerplate.html`  
 - `src/exercises/react/todo-mini-app/boilerplate.html`  
 - `src/exercises/react/dummy-api-app/boilerplate.html`
+**Guides:**  
+- `src/exercises/react/anti-patterns/README.md`  
+- `src/exercises/react/todo-mini-app/README.md`  
+- `src/exercises/react/dummy-api-app/README.md`
 
 ## Exercise Difficulty Levels
 
