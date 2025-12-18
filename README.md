@@ -154,6 +154,23 @@ Learn the Event Delegation pattern - use a single event listener on a parent to 
 - Handling dynamically added elements
 - Using `closest()` and `data-*` attributes
 
+### React Exercises
+
+#### 1. Anti-Patterns Clinic
+**Reference:** `src/exercises/react/README.md` (`react-anti-patterns`)
+
+Refactor a deliberately flawed component tree to eliminate common React anti-patterns like prop drilling, render storms from unstable callbacks, duplicated derived state, and missing `useEffect` dependencies.
+
+#### 2. Todo List Mini App
+**Reference:** `src/exercises/react/README.md` (`react-todo-mini-app`)
+
+Build a modern React todo list with add/edit/delete/toggle, filters, localStorage persistence, and keyboard-friendly interactions.
+
+#### 3. Dummy API Mini App
+**Reference:** `src/exercises/react/README.md` (`react-dummy-api`)
+
+Consume a dummy API (e.g., JSONPlaceholder) to list posts with loading/error states, search, details with comments, and optimistic create flows.
+
 ## 🎯 How to Use
 
 ### For Students (Interviewees)
