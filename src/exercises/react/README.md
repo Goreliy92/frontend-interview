@@ -17,7 +17,7 @@ Refactor a deliberately flawed component tree to remove common React anti-patter
 2. Stabilize renders using `useMemo`/`useCallback` only where profiling shows benefit.
 3. Remove duplicated/derived state; compute from source data instead.
 4. Fix effect dependencies and avoid setting state during render.
-5. Add basic unit-style checks (e.g., with React Testing Library or your preferred approach) to ensure key screens still render.
+5. Add basic component tests (e.g., with React Testing Library or your preferred approach) to ensure key screens still render.
 
 ### Completion checklist
 - [ ] No React warnings about missing dependencies or state updates during render
@@ -55,7 +55,7 @@ Consume a dummy API (e.g., https://jsonplaceholder.typicode.com/) to render data
 - Show optimistic updates with rollback on failure
 
 ## How to work on these
-1. Create components under `src/exercises/react/` using your preferred React setup (Vite/CRA are both fine).
+1. Create components under `src/exercises/react/` using a modern setup like Vite or Next.js (CRA is no longer recommended).
 2. Keep each exercise self-contained (its own entry point or story).
 3. Use TypeScript if you want extra practice with props and hooks typing.
 
