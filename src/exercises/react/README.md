@@ -67,6 +67,12 @@ _Tip:_ If you hit CORS restrictions with public dummy APIs, use your local mock 
 2. Keep each exercise self-contained (its own entry point or story).
 3. Use TypeScript if you want extra practice with props and hooks typing. For StackBlitz, open any `boilerplate.html` and iterate; each folder includes a README with task details and included libs.
 
+### HackerRank-style Vite template
+- Location: `src/exercises/react/hackerrank-template`
+- Stack: React 18, Vite, TypeScript (no UMD)
+- Scripts: `npm install`, `npm run dev`, `npm run build`, `npm run preview`
+- UI: `src/App.tsx` lists exercises and entry points
+
 ## Suggested folder layout
 ```
 src/exercises/react/

@@ -177,6 +177,11 @@ Build a modern React todo list with add/edit/delete/toggle, filters, localStorag
 
 Consume a dummy API (prefer a local mock like `json-server`; JSONPlaceholder at https://jsonplaceholder.typicode.com/ works as a fallback) to list posts with loading/error states, search, details with comments, and optimistic create flows.
 
+#### HackerRank-style Vite Template
+- Location: `src/exercises/react/hackerrank-template`
+- Includes React 18 + Vite + TypeScript with `npm run dev/build/preview`
+- UI (`src/App.tsx`) lists the exercises and their entry files for a “real assignment” feel
+
 ## 🎯 How to Use
 
 ### For Students (Interviewees)
