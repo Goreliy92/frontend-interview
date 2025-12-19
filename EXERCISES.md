@@ -138,6 +138,41 @@ This document provides an overview of all the additional exercises added to the 
 - Generic return types
 - Promise utilities
 
+## React Exercises
+
+### 1. Anti-Patterns Clinic (`react-anti-patterns`)
+**Concept:** Identifying and refactoring common React anti-patterns  
+**Use Case:** Stabilizing large component trees and reducing unnecessary renders  
+**Learning Goals:**
+- Replace prop drilling with context/custom hooks
+- Remove duplicated derived state
+- Stabilize callbacks/objects to avoid render storms
+- Fix `useEffect` dependency and state-update anti-patterns
+
+### 2. Todo List Mini App (`react-todo-mini-app`)
+**Concept:** Core React CRUD flow with modern patterns  
+**Use Case:** Everyday productivity app with local state/persistence  
+**Learning Goals:**
+- Manage todo add/edit/toggle/delete flows
+- Persist to `localStorage` and keep UI keyboard-friendly
+- Build reusable hooks/reducers for state transitions
+- Implement filters (All/Active/Completed) and bulk clear
+
+### 3. Dummy API Mini App (`react-dummy-api`)
+**Concept:** API-driven UI with optimistic updates  
+**Use Case:** Posts feed backed by a dummy API (e.g., JSONPlaceholder)  
+**Learning Goals:**
+- Fetch with loading/error/retry states
+- Implement client-side search/filter and detail view with comments
+- Mock create requests and append data optimistically
+- Explore pagination/infinite scroll and simple caching strategies
+
+### React Vite Project
+- Location: `src/exercises/react/challenges`
+- Stack: React 18 + Vite + TypeScript (no UMD)
+- Scripts: `npm install`, `npm run dev`, `npm run build`, `npm run preview`
+- Tasks implemented in `src/tasks/*` with reference approaches in `src/solutions/*`
+
 ## Exercise Difficulty Levels
 
 ### Beginner

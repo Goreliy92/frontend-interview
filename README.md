@@ -154,6 +154,16 @@ Learn the Event Delegation pattern - use a single event listener on a parent to 
 - Handling dynamically added elements
 - Using `closest()` and `data-*` attributes
 
+### React Exercises
+
+All React tasks now live in a single Vite/React/TypeScript project:
+- Location: `src/exercises/react/challenges`
+- Run: `npm install && npm run dev` (from that folder)
+- Implement tasks in `src/tasks/*`; reference approaches in `src/solutions/*`
+  - Anti-Patterns Clinic — refactor a flawed tree (prop drilling, derived state, render storms, bad effects)
+  - Todo Mini App — CRUD + filters + persistence + keyboard UX
+  - Dummy API Mini App — loading/error/retry, search, details + comments, optimistic create (API or mock)
+
 ## 🎯 How to Use
 
 ### For Students (Interviewees)
