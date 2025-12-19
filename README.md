@@ -156,31 +156,13 @@ Learn the Event Delegation pattern - use a single event listener on a parent to 
 
 ### React Exercises
 
-#### 1. Anti-Patterns Clinic
-**Reference:** `src/exercises/react/README.md` (`react-anti-patterns`)
-**Boilerplate:** `src/exercises/react/anti-patterns/boilerplate.html`  
-**Guide:** `src/exercises/react/anti-patterns/README.md`
-
-Refactor a deliberately flawed component tree to eliminate common React anti-patterns like prop drilling, render storms from unstable callbacks, duplicated derived state, and missing `useEffect` dependencies.
-
-#### 2. Todo List Mini App
-**Reference:** `src/exercises/react/README.md` (`react-todo-mini-app`)
-**Boilerplate:** `src/exercises/react/todo-mini-app/boilerplate.html`  
-**Guide:** `src/exercises/react/todo-mini-app/README.md`
-
-Build a modern React todo list with add/edit/delete/toggle, filters, localStorage persistence, and keyboard-friendly interactions.
-
-#### 3. Dummy API Mini App
-**Reference:** `src/exercises/react/README.md` (`react-dummy-api`)
-**Boilerplate:** `src/exercises/react/dummy-api-app/boilerplate.html`  
-**Guide:** `src/exercises/react/dummy-api-app/README.md`
-
-Consume a dummy API (prefer a local mock like `json-server`; JSONPlaceholder at https://jsonplaceholder.typicode.com/ works as a fallback) to list posts with loading/error states, search, details with comments, and optimistic create flows.
-
-#### HackerRank-style Vite Template
-- Location: `src/exercises/react/hackerrank-template`
-- Includes React 18 + Vite + TypeScript with `npm run dev/build/preview`
-- UI (`src/App.tsx`) lists the exercises and their entry files for a “real assignment” feel
+All React tasks now live in a single Vite/React/TypeScript project:
+- Location: `src/exercises/react/challenges`
+- Run: `npm install && npm run dev` (from that folder)
+- Implement tasks in `src/tasks/*`; reference approaches in `src/solutions/*`
+  - Anti-Patterns Clinic — refactor a flawed tree (prop drilling, derived state, render storms, bad effects)
+  - Todo Mini App — CRUD + filters + persistence + keyboard UX
+  - Dummy API Mini App — loading/error/retry, search, details + comments, optimistic create (API or mock)
 
 ## 🎯 How to Use
 

@@ -1,11 +1,9 @@
 # React Exercises
 
-Hands-on React tasks that focus on common anti-patterns and small feature-complete mini apps. These are framework-agnostic and can be completed with plain React (JS or TS) without additional libraries.
+Hands-on React tasks that focus on anti-patterns and small feature-complete mini apps. Use the Vite/React/TS project under `src/exercises/react/challenges`.
 
-## 1) Anti-Patterns Clinic (`react-anti-patterns`)
-**Boilerplate:** `src/exercises/react/anti-patterns/boilerplate.html` (open directly or in StackBlitz)  
-**Guide:** `src/exercises/react/anti-patterns/README.md`
-Refactor a deliberately flawed component tree to remove common React anti-patterns.
+## 1) Anti-Patterns Clinic
+Implement in the Vite app: `src/exercises/react/challenges/src/tasks/AntiPatterns.tsx`
 
 ### What the starter code should include
 - Prop drilling across 3+ levels for simple theme/user data
@@ -26,9 +24,8 @@ Refactor a deliberately flawed component tree to remove common React anti-patter
 - [ ] Number of renders for child components is reduced after fixes
 - [ ] Shared data no longer relies on multi-level prop drilling
 
-## 2) Todo List Mini App (`react-todo-mini-app`)
-**Boilerplate:** `src/exercises/react/todo-mini-app/boilerplate.html`  
-**Guide:** `src/exercises/react/todo-mini-app/README.md`
+## 2) Todo List Mini App
+Implement in the Vite app: `src/exercises/react/challenges/src/tasks/TodoMiniApp.tsx`
 Build a classic todo list with modern React patterns.
 
 ### Requirements
@@ -43,9 +40,8 @@ Build a classic todo list with modern React patterns.
 - Optimistic UI when persisting
 - Extract reusable `useTodos` hook with reducer for actions
 
-## 3) Dummy API Mini App (`react-dummy-api`)
-**Boilerplate:** `src/exercises/react/dummy-api-app/boilerplate.html`  
-**Guide:** `src/exercises/react/dummy-api-app/README.md`
+## 3) Dummy API Mini App
+Implement in the Vite app: `src/exercises/react/challenges/src/tasks/DummyApiApp.tsx`
 Prefer a local mock API (e.g., `json-server`) to avoid rate limits. As a fallback, JSONPlaceholder (https://jsonplaceholder.typicode.com/) works for quick trials.
 
 ### Requirements
@@ -63,20 +59,27 @@ _Tip:_ If you hit CORS restrictions with public dummy APIs, use your local mock 
 - Show optimistic updates with rollback on failure
 
 ## How to work on these
-1. Create components under `src/exercises/react/` using a modern setup like Vite or Next.js. Avoid CRA for new work because it is in maintenance mode and modern alternatives perform better.
-2. Keep each exercise self-contained (its own entry point or story).
-3. Use TypeScript if you want extra practice with props and hooks typing. For StackBlitz, open any `boilerplate.html` and iterate; each folder includes a README with task details and included libs.
+1. Navigate to `src/exercises/react/challenges`.
+2. `npm install` then `npm run dev` to start the Vite app.
+3. Implement tasks in `src/tasks/*`; reference approaches live in `src/solutions/*`.
+4. Use TypeScript for props/hooks typing; add tests as you see fit.
 
-### HackerRank-style Vite template
-- Location: `src/exercises/react/hackerrank-template`
-- Stack: React 18, Vite, TypeScript (no UMD)
-- Scripts: `npm install`, `npm run dev`, `npm run build`, `npm run preview`
-- UI: `src/App.tsx` lists exercises and entry points
-
-## Suggested folder layout
+## Project structure
 ```
-src/exercises/react/
-  ├── anti-patterns/      # Starter components to refactor
-  ├── todo-mini-app/      # Todo app components/hooks/tests
-  └── dummy-api-app/      # API-driven list/detail UI
+src/exercises/react/challenges/
+  package.json
+  tsconfig.json
+  vite.config.ts
+  index.html
+  src/
+    main.tsx
+    App.tsx
+    tasks/
+      AntiPatterns.tsx
+      TodoMiniApp.tsx
+      DummyApiApp.tsx
+    solutions/
+      AntiPatternsSolution.tsx
+      TodoMiniAppSolution.tsx
+      DummyApiAppSolution.tsx
 ```

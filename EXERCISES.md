@@ -167,19 +167,11 @@ This document provides an overview of all the additional exercises added to the 
 - Mock create requests and append data optimistically
 - Explore pagination/infinite scroll and simple caching strategies
 
-**Boilerplates:**  
-- `src/exercises/react/anti-patterns/boilerplate.html`  
-- `src/exercises/react/todo-mini-app/boilerplate.html`  
-- `src/exercises/react/dummy-api-app/boilerplate.html`
-**Guides:**  
-- `src/exercises/react/anti-patterns/README.md`  
-- `src/exercises/react/todo-mini-app/README.md`  
-- `src/exercises/react/dummy-api-app/README.md`
-
-### HackerRank-style Template
-- `src/exercises/react/hackerrank-template` (React 18 + Vite + TS, no UMD)
+### React Vite Project
+- Location: `src/exercises/react/challenges`
+- Stack: React 18 + Vite + TypeScript (no UMD)
 - Scripts: `npm install`, `npm run dev`, `npm run build`, `npm run preview`
-- UI lists the three React exercises and their entry files
+- Tasks implemented in `src/tasks/*` with reference approaches in `src/solutions/*`
 
 ## Exercise Difficulty Levels
 
